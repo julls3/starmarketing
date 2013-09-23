@@ -1,9 +1,1 @@
-<?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-echo '123';
-?>
+<?php echo '123123'; ?>
