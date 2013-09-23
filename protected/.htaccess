@@ -1,0 +1,2 @@
+deny from all
+allow from 91.218.89.42
