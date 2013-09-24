@@ -193,3 +193,7 @@ class ApiController extends Controller
         }
          
 }
+
+function oloo(){
+    return true;
+}
