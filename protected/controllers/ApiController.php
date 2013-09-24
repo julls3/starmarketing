@@ -71,12 +71,7 @@ class ApiController extends Controller
              $kws = SeoKeywords::get_all();
              
              
-             for($i=0;$i<=150;$i++){
-                //SeoPositions::parse($kws[$i]);
-                sleep(mt_rand(10,20));
-                echo $i;
-             }
-             
+             sayHello();
              
          }
          
@@ -192,4 +187,9 @@ class ApiController extends Controller
             $this->render('gareports',array('model'=>$model));
         }
          
+}
+
+function sayHello(){
+    echo '_-_-';
+    sayHello();
 }
